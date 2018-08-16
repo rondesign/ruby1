@@ -13,6 +13,6 @@ puts "#{name2.upcase} has a health of #{health2}."
 puts "#{name3.capitalize} has a health of #{health3}.".center(50, '*')
 puts "#{name4.capitalize.ljust(30, '.')} #{health4} health"
 
-puts "The game started on #{current_time.strftime("%A %m/%d/%Y at %I:%M%p")}"
+puts "The game started on #{current_time.strftime('%A %m/%d/%Y at %I:%M%p')}"
 
 puts "Players:\n\t#{name1.capitalize}\n\t#{name2}\n\t#{name3}"
